@@ -1,0 +1,38 @@
+/* 
+03045E 023E8A 0077B6
+0096C7 00B4D8 48CAE4
+90E0EF ADE8F4 CAF0F8
+*/
+
+.Card {
+    background-color: #CAF0F8;
+    border: #eef;
+    border-radius: 5px;
+    margin: 12px 8px;
+    overflow: hidden;  
+    min-width: 16em;
+    display: inline-block;
+    box-shadow: 6px 6px 4px #03045E;
+
+}
+
+.Card:hover {
+    background-color: #00B4D8;
+    width: 12em;
+    height: 12em;
+    transition: width 2s, height 8s, transform 2s;
+}
+
+img {
+    padding: 2px;
+    margin: auto;
+    display: block;
+}
+
+.Card .Nome {
+    background-color: #90E0EF;
+    padding-top: 6px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 34px;
+    text-align: center;
+}
