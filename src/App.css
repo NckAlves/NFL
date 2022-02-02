@@ -5,8 +5,12 @@
 */
 
 body {
-    background-color: #0077B6;
     margin: 1%;
+    background-image: url("./images/nfl-2.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .times {
