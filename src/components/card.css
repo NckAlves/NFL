@@ -13,7 +13,6 @@
     min-width: 16em;
     display: inline-block;
     box-shadow: 6px 6px 4px #03045E;
-
 }
 
 .Card:hover {
@@ -21,6 +20,7 @@
     width: 12em;
     height: 12em;
     transition: width 2s, height 8s, transform 2s;
+    cursor: pointer;
 }
 
 img {
