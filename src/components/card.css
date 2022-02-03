@@ -12,11 +12,11 @@
     overflow: hidden;  
     min-width: 16em;
     display: inline-block;
-    box-shadow: 6px 6px 4px #03045E;
+    box-shadow: 6px 6px 4px #03051bc0;
 }
 
 .Card:hover {
-    background-color: #00B4D8;
+    background-color: #3392a5f3;
     width: 12em;
     height: 12em;
     transition: width 2s, height 8s, transform 2s;

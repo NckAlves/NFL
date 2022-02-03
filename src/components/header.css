@@ -1,0 +1,29 @@
+/* 
+03045E 023E8A 0077B6
+0096C7 00B4D8 48CAE4
+90E0EF ADE8F4 CAF0F8
+*/
+
+.header {
+    background-color: #041a1f60;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 160px;
+    margin: 0 2%;
+}
+
+.Titulo {
+    font-family: 'Anton', sans-serif;
+    font-size: 46px;
+    text-align: center;
+    color: white;
+    margin: 16px;
+}
+
+.Texto {
+    font-family: 'Dongle', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+}

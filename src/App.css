@@ -6,14 +6,14 @@
 
 body {
     margin: 1%;
-    background-image: url("./images/nfl-2.jpg");
+    background-image: url("./images/background/stadium.jpg");
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-.times {
+.Times {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
