@@ -5,8 +5,8 @@
 */
 
 .Card {
-    background-color: #CAF0F8;
-    border: #eef;
+    background-color: #003554;
+    border: 2px solid #0582ca;
     border-radius: 5px;
     margin: 12px 8px;
     overflow: hidden;  
@@ -16,7 +16,7 @@
 }
 
 .Card:hover {
-    background-color: #3392a5f3;
+    background-color: #006494DD;
     width: 12em;
     height: 12em;
     transition: width 2s, height 8s, transform 2s;
@@ -30,7 +30,7 @@ img {
 }
 
 .Card .Nome {
-    background-color: #90E0EF;
+    background-color: #0582ca;
     padding-top: 6px;
     font-family: 'Dongle', sans-serif;
     font-size: 34px;
