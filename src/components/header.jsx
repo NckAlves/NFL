@@ -4,7 +4,7 @@ import './header.css'
 export default () =>
 
     <>
-        <div className='header'>
+        <div className='Header'>
             <h1 className='Titulo'>Bem-Vindo à NFL!</h1>
             <div className='Texto'>
                 <p>Conheça as equipes da principal liga dos esportes americanos</p>

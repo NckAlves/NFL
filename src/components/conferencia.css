@@ -1,0 +1,78 @@
+/*
+#8C232C #8C2034 #BF8E97
+#111826 #BABDBF
+*/
+
+.Principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Corpo {
+    margin: 1em 0.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Apresentacao {
+    background-color: #8C203430;
+    height: 400;
+    width: 480px;
+    border: 0;
+    border-radius: 8px;
+    padding: 4px 0 0 10px;
+    justify-content: space-around;
+    margin: 5em;
+}
+
+.Apresentacao .Titulo {
+    color: #eee6e6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    border: 0;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.Apresentacao .Texto {
+    color: #eee6e6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    padding-top: 2em;
+    justify-content: space-around;
+}
+
+.Apresentacao .Texto > p {
+    padding: 0.8em;
+}
+
+.Box {
+    background-color: #dbd8d8;
+    height: 660px;
+    width: 725px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.Page {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.2em 0.5em;
+}
+
+.Page img {
+    width: 60px;
+}
+
+.Page img:hover {
+    width: 65px;
+    cursor: pointer;
+}

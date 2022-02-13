@@ -10,16 +10,13 @@
     border-radius: 5px;
     margin: 12px 8px;
     overflow: hidden;  
-    min-width: 16em;
+    min-width: 10em;
     display: inline-block;
     box-shadow: 6px 6px 4px #03051bc0;
 }
 
 .Card:hover {
     background-color: #006494DD;
-    width: 12em;
-    height: 12em;
-    transition: width 2s, height 8s, transform 2s;
     cursor: pointer;
 }
 
@@ -31,8 +28,8 @@ img {
 
 .Card .Nome {
     background-color: #0582ca;
-    padding-top: 6px;
+    padding-top: 2px;
     font-family: 'Dongle', sans-serif;
-    font-size: 34px;
+    font-size: 22px;
     text-align: center;
 }

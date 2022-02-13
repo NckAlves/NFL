@@ -1,0 +1,44 @@
+/*
+#8C232C #8C2034 #BF8E97
+#111826 #BABDBF
+*/
+
+.Nav {
+    background-color: #eaecee44;
+    height: 44px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Bemvindo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.Botoes {
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+button {
+    border: 0px;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    height: 32px;
+    width: max-content;
+    margin: 4px 4px auto 10px;
+    padding: 0 1em;
+    background-color: transparent;
+    color: white;
+}
+
+button:hover {
+    background-color: #8b10108f;
+    cursor: pointer;
+}
