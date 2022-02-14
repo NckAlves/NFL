@@ -4,9 +4,13 @@
 90E0EF ADE8F4 CAF0F8
 */
 
+/*
+7A1B39 69263B 8F2144 FA0F59
+*/
+
 .Card {
-    background-color: #003554;
-    border: 2px solid #0582ca;
+    background-color: #7A1B39;
+    border: 2px solid #69263B;
     border-radius: 5px;
     margin: 12px 8px;
     overflow: hidden;  
@@ -16,7 +20,7 @@
 }
 
 .Card:hover {
-    background-color: #006494DD;
+    background-color: #9c2c4f;
     cursor: pointer;
 }
 
@@ -27,9 +31,10 @@ img {
 }
 
 .Card .Nome {
-    background-color: #0582ca;
+    background-color: #580c25;
     padding-top: 2px;
     font-family: 'Dongle', sans-serif;
     font-size: 22px;
     text-align: center;
+    color: #dad5d5;
 }

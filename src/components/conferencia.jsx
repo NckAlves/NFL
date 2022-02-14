@@ -26,7 +26,7 @@ export default ()  =>
                     <img src={nfc} />
                     <img src={afc} />
                 </div>
-                <ExibicaoNFC />
+                <ExibicaoAFC />
             </div>
         </div>
 
