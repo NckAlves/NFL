@@ -15,7 +15,7 @@ function App() {
             <Nav />
             <Conferencia />
             <div className='Historia'>
-                <img src={Logo} width={400}></img>
+                <img src={Logo} width={380}></img>
                 <div className='BoxTexto'>
                     <h2>História da Liga</h2>
 
@@ -28,7 +28,6 @@ function App() {
 
                     <p>A NFL contou com algumas expansões para chegar até o formato atual com 32 times divididos em 2 conferências com 4 divisões cada. Em 1976 os Buccaneers e os Seahawks se juntaram à liga. Em 1995 foi a vez dos Jaguars e dos Panthers. Os últimos dois times a entrarem para a NFL foram o Ravens (1996) e o Texans (2002).</p>
                 </div>
-
             </div>
         </>
     );
