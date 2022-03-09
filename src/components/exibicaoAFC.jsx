@@ -21,23 +21,23 @@ import jaguars from '../images/jaguars.png'
 
 export default () =>
     <div>
-        <Card nomeTime="Baltimore Ravens" Logo={ravens} />
-        <Card nomeTime="Cincinnati Bengals" Logo={bengals} />
-        <Card nomeTime="Cleveland Browns" Logo={browns} />
-        <Card nomeTime="Pittsbrgh Steelers" Logo={steelers} />
+        <Card nomeTime="Baltimore Ravens" Logo={ravens} titulos='2' />
+        <Card nomeTime="Cincinnati Bengals" Logo={bengals} titulos='0' />
+        <Card nomeTime="Cleveland Browns" Logo={browns} titulos='0' />
+        <Card nomeTime="Pittsbrgh Steelers" Logo={steelers} titulos='6' />
 
-        <Card nomeTime="Buffalo Bills" Logo={bills} />
-        <Card nomeTime="Miami Dolphins" Logo={dolphins} />
-        <Card nomeTime="New England Patriots" Logo={patriots} />
-        <Card nomeTime="New York Jets" Logo={jets} />
+        <Card nomeTime="Buffalo Bills" Logo={bills} titulos='0' />
+        <Card nomeTime="Miami Dolphins" Logo={dolphins} titulos='2' />
+        <Card nomeTime="New England Patriots" Logo={patriots} titulos='6' />
+        <Card nomeTime="New York Jets" Logo={jets} titulos='1' />
 
-        <Card nomeTime="Denver Broncos" Logo={broncos} />
-        <Card nomeTime="Kansas City Chiefs" Logo={chiefs} />
-        <Card nomeTime="Las Vegas Raiders" Logo={raiders} />
-        <Card nomeTime="Los Angeles Chargers" Logo={chargers} />
+        <Card nomeTime="Denver Broncos" Logo={broncos} titulos='3' />
+        <Card nomeTime="Kansas City Chiefs" Logo={chiefs} titulos='1' />
+        <Card nomeTime="Las Vegas Raiders" Logo={raiders} titulos='3' />
+        <Card nomeTime="Los Angeles Chargers" Logo={chargers} titulos='0' />
 
-        <Card nomeTime="Houston Texans" Logo={texans} />
-        <Card nomeTime="Indianapolis Colts" Logo={colts} />
-        <Card nomeTime="Jacksonville Jaguars" Logo={jaguars} />
-        <Card nomeTime="Tennessee Titans" Logo={titans} />
+        <Card nomeTime="Houston Texans" Logo={texans} titulos='0' />
+        <Card nomeTime="Indianapolis Colts" Logo={colts} titulos='2' />
+        <Card nomeTime="Jacksonville Jaguars" Logo={jaguars} titulos='0' />
+        <Card nomeTime="Tennessee Titans" Logo={titans} titulos='0' />
     </div>

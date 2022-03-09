@@ -1,0 +1,44 @@
+.BoxInfo {
+    background-color: #4939AB;
+    width: 80%;
+    height: max-content;
+    position: absolute;
+    margin: 6em auto 1em;
+    padding: 1.5em 2em 0;
+    border: 2px solid #242424;
+    border-radius: 8px;
+}
+
+.BoxInfo h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: aqua;
+    text-align: center;
+}
+
+.Info {
+    margin: 4em;
+    color: aqua;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.Info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Info li {
+    border: 2px solid #000000ef;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 1em 0.5em;
+    min-width: 10em;
+    height: 8em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
