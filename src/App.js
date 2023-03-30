@@ -3,13 +3,12 @@ import ReactDom from 'react-dom';
 import './reset.css';
 import './App.css';
 
-import Nav from './components/nav.jsx'
-import Conferencia from './components/conferencia.jsx'
-import Header from './components/header.jsx'
-import Exibicao from './components/exibicaoNFC.jsx'
+import Nav from './components/nav/nav.jsx'
+import Conferencia from './components/conferencia/conferencia.jsx'
+import Exibicao from './components/exibicao/exibicaoNFC.jsx'
 import Logo from './images/background/logo.png'
 import Trophy from './images/background/trophy.jpg'
-import Apresentacao from './components/apresentacao'
+import Apresentacao from './components/apresentacao/apresentacao'
 
 function App() {
     return (
@@ -19,6 +18,7 @@ function App() {
             </div>
             <Nav />
             <Conferencia />
+
             <div className='Historia'>
                 <img src={Logo} width={380}></img>
                 <div className='BoxTexto'>

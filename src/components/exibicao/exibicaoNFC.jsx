@@ -1,28 +1,27 @@
 import React from "react";
 import './exibicao.css'
-import Card from './card.jsx'
+import Card from '../card/card.jsx'
 
-import bears from '../images/bears.png'
-import packers from '../images/packers.png'
-import vikings from '../images/vikings.png'
-import lions from '../images/lions.png'
-import giants from '../images/giants.png'
-import cowboys from '../images/cowboys.png'
-import eagles from '../images/eagles.png'
-import washington from '../images/washington.png'
-import seahawks from '../images/seahawks.png'
-import cardinals from '../images/cardinals.png'
-import niners from '../images/niners.png'
-import rams from '../images/rams.png'
-import saints from '../images/saints.png'
-import bucs from '../images/bucs.png'
-import panthers from '../images/panthers.png'
-import falcons from '../images/falcons.png'
+import bears from '../../images/bears.png'
+import packers from '../../images/packers.png'
+import vikings from '../../images/vikings.png'
+import lions from '../../images/lions.png'
+import giants from '../../images/giants.png'
+import cowboys from '../../images/cowboys.png'
+import eagles from '../../images/eagles.png'
+import washington from '../../images/washington.png'
+import seahawks from '../../images/seahawks.png'
+import cardinals from '../../images/cardinals.png'
+import niners from '../../images/niners.png'
+import rams from '../../images/rams.png'
+import saints from '../../images/saints.png'
+import bucs from '../../images/bucs.png'
+import panthers from '../../images/panthers.png'
+import falcons from '../../images/falcons.png'
 
-
-export default () =>
-
-    <div className='Times'>
+function exibicaoNFC() {
+    return (
+        <div className='Times'>
         <Card nomeTime="Chigado Bears" Logo={bears} titulos='1' />
         <Card nomeTime="Detroit Lions" Logo={lions} titulos='0' />
         <Card nomeTime="Green Bay Packers" Logo={packers} titulos='4' />
@@ -43,3 +42,7 @@ export default () =>
         <Card nomeTime="New Orleans Saints" Logo={saints} titulos='1' />
         <Card nomeTime="Tampa Bay Buccaneers" Logo={bucs} titulos='1' />
     </div>
+    )
+}
+
+export default exibicaoNFC

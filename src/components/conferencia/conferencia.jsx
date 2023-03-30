@@ -1,15 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './conferencia.css';
-import ExibicaoNFC from './exibicaoNFC.jsx'
-import ExibicaoAFC from "./exibicaoAFC";
+import ExibicaoNFC from '../exibicao/exibicaoNFC.jsx'
+import ExibicaoAFC from "../exibicao/exibicaoAFC.jsx";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
-import nfc from '../images/conf/nfc.png'
-import afc from '../images/conf/afc.png'
+import nfc from '../../images/conf/nfc.png'
+import afc from '../../images/conf/afc.png'
 
 
 function Conferencia() {
     const [listaNFC, setListaNFC] = useState()
     const [listaAFC, setListaAFC] = useState()
+
+    useEffect(() => { Aos.init({ duration: 1000 }) }, [])
 
     function ExibirNFC(e) {
         setListaNFC(true)
@@ -22,7 +26,7 @@ function Conferencia() {
     }
 
     return (
-        <div className="Principal">
+        <div className="Principal" data-aos="fade-up">
             <div className="Corpo">
                 <div className="Apresentacao">
                     <div className="Titulo">
@@ -31,8 +35,7 @@ function Conferencia() {
                     <div className="Texto">
                         <p>Sejam muito bem-vindos e bem-vindas! Esta página tem o objetivo de apresentar cada um dos 32 times da National Football League.</p>
                         <p>A liga é divida em duas Conferências (AFC e NFC), cada uma com 16 times.</p>
-                        <p>Basta clicar no card de qualquer um dos times para ter as principais informações sobre ele.</p>
-                        <p>Não é só isso! Abaixo você tem mais informações sobre a liga, seus jogos e regras.</p>
+                        
                         <p>Aproveite!</p>
                     </div>
                 </div>
@@ -44,10 +47,8 @@ function Conferencia() {
 
                     {listaAFC && ( <ExibicaoAFC /> )}
                     {listaNFC && ( <ExibicaoNFC /> )}
-
                 </div>
             </div>
-
         </div>
     )
 }

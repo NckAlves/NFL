@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './card.css'
-import Apresentacao from './apresentacao'
+import Apresentacao from '../apresentacao/apresentacao'
 import { render } from '@testing-library/react'
 
 function Card(props) {

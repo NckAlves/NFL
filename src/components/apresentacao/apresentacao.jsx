@@ -1,9 +1,9 @@
 import React from 'react';
 import './apresentacao.css';
 
-export default (props) =>
-
-    <div className='BoxInfo'>
+function apresentacao(props) {
+    return(
+        <div className='BoxInfo'>
         <h3>{props.nomeTime}</h3>
         <div className='Info'>
             <ul>
@@ -24,3 +24,7 @@ export default (props) =>
             </ul>
         </div>
     </div>
+    )
+}
+
+export default apresentacao
