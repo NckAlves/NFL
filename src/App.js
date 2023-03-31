@@ -19,7 +19,7 @@ function App() {
             <Nav />
             <Conferencia />
 
-            <div className='Historia'>
+            <div className='Historia' id='sobre'>
                 <img src={Logo} width={380}></img>
                 <div className='BoxTexto'>
                     <h2>História da Liga</h2>

@@ -35,8 +35,11 @@ function Conferencia() {
                     <div className="Texto">
                         <p>Sejam muito bem-vindos e bem-vindas! Esta página tem o objetivo de apresentar cada um dos 32 times da National Football League.</p>
                         <p>A liga é divida em duas Conferências (AFC e NFC), cada uma com 16 times.</p>
-                        
+
                         <p>Aproveite!</p>
+                    </div>
+                    <div className="centralizar">
+                        <a href="#sobre"><button className="botaoSaiba">Saiba Mais</button></a>
                     </div>
                 </div>
                 <div className="Box">
@@ -45,8 +48,8 @@ function Conferencia() {
                         <img src={nfc} onClick={ExibirNFC} />
                     </div>
 
-                    {listaAFC && ( <ExibicaoAFC /> )}
-                    {listaNFC && ( <ExibicaoNFC /> )}
+                    {listaAFC && (<ExibicaoAFC />)}
+                    {listaNFC && (<ExibicaoNFC />)}
                 </div>
             </div>
         </div>

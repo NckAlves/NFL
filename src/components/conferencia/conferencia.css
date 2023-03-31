@@ -23,28 +23,47 @@
     width: 480px;
     border: 0;
     border-radius: 8px;
-    padding: 4px 0 0 10px;
+    padding: 0px 0 0 0;
     justify-content: space-around;
     margin: 3.5em;
 }
 
-.Apresentacao .Titulo {
+.Titulo {
     color: #dad5d5;
     font-family: 'Roboto', sans-serif;
     font-size: 34px;
     font-weight: bold;
     border: 0;
     text-align: center;
+    margin-top: 0.5em;
     margin-bottom: 14px;
 }
 
-.Apresentacao .Texto {
+.Texto {
     color: #dad5d5;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     text-align: left;
     padding-top: 2em;
     justify-content: space-around;
+}
+
+.centralizar a {
+    display: flex;
+    text-decoration: none;
+}
+
+.botaoSaiba {
+    width: 60%;
+    height: 5vh;
+    background: #0a3fc5ca;
+    margin: 0.2em auto 1em auto;
+    justify-content: space-around;
+    box-shadow: 0 4px 2px #0000007d;
+}
+
+.botaoSaiba:hover {
+    background: #580C25;
 }
 
 .Apresentacao .Texto > p {
@@ -75,3 +94,4 @@
 .Page img:hover {
     cursor: pointer;
 }
+
