@@ -39,7 +39,7 @@ function Conferencia() {
                         <p>Aproveite!</p>
                     </div>
                     <div className="centralizar">
-                        <a href="#sobre"><button className="botaoSaiba">Saiba Mais</button></a>
+                        <a href="#sobre"><button className="botaoSaiba">Mais Conteúdo Abaixo</button></a>
                     </div>
                 </div>
                 <div className="Box">
